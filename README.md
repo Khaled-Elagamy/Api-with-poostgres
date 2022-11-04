@@ -43,14 +43,14 @@ NODE_ENV=dev
 # Database connection information
 POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
-POSTGRES_DB=store_dev
-POSTGRES_DB_TEST=store_test
-POSTGRES_USER=store_admin
-POSTGRES_PASSWORD=123456
+POSTGRES_DB=
+POSTGRES_DB_TEST=
+POSTGRES_USER=
+POSTGRES_PASSWORD=
 #User password
-BCRYPT_PASSWORD=your-secert-password
-SALT_ROUNDS=10
-TOKEN_SECRET=your-secret-token
+BCRYPT_PASSWORD=
+SALT_ROUNDS=
+TOKEN_SECRET=
 ```
 
 ### Creating the database
